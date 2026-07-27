@@ -31,8 +31,8 @@ export class RenderClass {
             this.lastWidth = window.innerWidth
             this.lastHeight = window.innerHeight
 
-            this.canvas.width = window.innerWidth
-            this.canvas.height = window.innerHeight
+            this.canvas.width = window.innerWidth/10
+            this.canvas.height = window.innerHeight/10
 
             for (let x = 0; x < this.canvas.width; x++) {
                 for (let y = 0; y < this.canvas.height; y++) {
